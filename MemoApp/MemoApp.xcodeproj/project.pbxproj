@@ -12,6 +12,10 @@
 		B00B43A2242A5597003FC89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B43A0242A5597003FC89D /* Main.storyboard */; };
 		B00B43A4242A5598003FC89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00B43A3242A5598003FC89D /* Assets.xcassets */; };
 		B00B43A7242A5598003FC89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00B43A5242A5598003FC89D /* LaunchScreen.storyboard */; };
+		B00B43AF242A5B08003FC89D /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B43AE242A5B08003FC89D /* AddMemoViewController.swift */; };
+		B00B43B1242A5BA4003FC89D /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B43B0242A5BA4003FC89D /* MemoData.swift */; };
+		B00B43B3242A5D4A003FC89D /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B43B2242A5D4A003FC89D /* MemoCell.swift */; };
+		B00B43B5242A5E92003FC89D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B43B4242A5E92003FC89D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B00B43A3242A5598003FC89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00B43A6242A5598003FC89D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00B43A8242A5598003FC89D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00B43AE242A5B08003FC89D /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		B00B43B0242A5BA4003FC89D /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		B00B43B2242A5D4A003FC89D /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		B00B43B4242A5E92003FC89D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				B00B43A3242A5598003FC89D /* Assets.xcassets */,
 				B00B43A5242A5598003FC89D /* LaunchScreen.storyboard */,
 				B00B43A8242A5598003FC89D /* Info.plist */,
+				B00B43AE242A5B08003FC89D /* AddMemoViewController.swift */,
+				B00B43B0242A5BA4003FC89D /* MemoData.swift */,
+				B00B43B2242A5D4A003FC89D /* MemoCell.swift */,
+				B00B43B4242A5E92003FC89D /* DetailViewController.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -135,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00B43AF242A5B08003FC89D /* AddMemoViewController.swift in Sources */,
+				B00B43B3242A5D4A003FC89D /* MemoCell.swift in Sources */,
+				B00B43B1242A5BA4003FC89D /* MemoData.swift in Sources */,
+				B00B43B5242A5E92003FC89D /* DetailViewController.swift in Sources */,
 				B00B439F242A5597003FC89D /* ViewController.swift in Sources */,
 				B00B439B242A5597003FC89D /* AppDelegate.swift in Sources */,
 			);
